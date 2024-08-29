@@ -474,6 +474,95 @@ right: 90px;
 
 
  }
+ @media screen and (max-width :689px) {
+    .main_container {
+        flex-direction: column;
+        
+    }
+    .main {
+        padding-left: 120px;
+    }
+    .header {
+        padding-left: 140px;
+    }
+    .about_us_title {
+        text-align: center;
+     position: relative;
+        top: 500px;
+    }
+    .about_us_desc {
+        text-align: center;
+        position: relative;
+        top: 470px;
+        width: 573;
+    }
+    .about_us_image{
+        position: relative;
+        bottom: 230px;
+    }
+    .world_container {
+        flex-direction: column;
+    }
+    .world_picture {
+        width: 689;
+        height: 320;
+
+    }
+    .world {
+        padding-left: 120px;
+    }
+    .world_title {
+        text-align: center;
+        position: relative;
+        top: 20px;
+        right: 15px;
+    }
+    .desc_one {
+        text-align: center;
+        position: relative;
+        top: 15px;
+        right: 15px;
+    }
+    .countries_container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .countries {
+        padding-left: 140px;
+    }
+    .united_kingdom_card {
+        padding-left: 15px;
+    }
+.real_container {
+    flex-direction: column;
+}
+.real_image {
+    position: relative;
+    bottom: 385px;
+    left: 60px;
+}
+.real_left {
+    position: relative;
+    top: 650px;
+    left: 80px;
+}
+.talk_title {
+    text-align: center;
+}
+.talk_desc {
+    text-align: center;
+}
+
+
+ }
+ @media screen and (max-width : 338px) {
+.real_image{
+    position: relative;
+ margin-bottom: 600px;
+}
+ }
+ 
+
 
 
 
