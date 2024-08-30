@@ -594,6 +594,75 @@ right: 90px;
 
 
  }
+ .card_title {
+    font-family: Jost;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 2px;
+
+width: 266;
+color: #FFFFFF;
+ }
+ .web_design_title {
+    position: absolute;
+    left: 145px;
+    top: 250px;
+ }
+ .design_container {
+    position: relative;
+ }
+ .design_page {
+    position: relative;
+ }
+ .view {
+    font-family: Jost;
+font-size: 15px;
+font-weight: 500;
+line-height: 21.68px;
+letter-spacing: 5px;
+color: #FFFFFF;
+
+
+ }
+ .web_design_view {
+    position: absolute;
+left: 170px;
+top: 330px;
+ }
+.app_design_title {
+ 
+position: absolute;
+top: 120px;
+left: 160px;
+}
+.app_design_view {
+
+    position: absolute;
+    top: 180px;
+    left: 190px;
+}
+.graphic_design_title {
+   
+    position: absolute;
+    top: 370px;
+    left: 190px;
+    width: 450;
+
+
+
+}
+.graphic_design_view {
+    
+    top: 480px;
+    position: absolute;
+    left: 190px;
+
+}
+.design_right {
+    position: relative;
+}
+
 
 
 

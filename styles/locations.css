@@ -85,21 +85,459 @@ line-height: 26px;
 text-align: left;
 
 }
-.first_title {
+.canada_title {
     font-family: Jost;
 font-size: 40px;
 font-weight: 500;
 line-height: 48px;
 text-align: left;
 color: #E7816B;
-margin-left: 20px;
+
 
 }
-.first_desc{ font-family: Jost;
+.canada_desc{ font-family: Jost;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    margin-left: 20px;
+
 
 }
+
+.australia_container {
+    display: flex;
+    align-items: center;
+   gap: 50px;
+    background-color: #FDF3F0;
+}
+.australia_title {
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #E7816B;
+   margin-bottom: 35px;
+}
+.middle_desc {
+    font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+}
+.desc_right {
+    font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+padding-top: 80px;
+
+}
+.canada_container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #FDF3F0;
+}
+.canada_image { position: relative;
+    left: 300px;
+
+}
+.united-title {
+    position: relative;
+    left: 170px;
+}
+ /* FOOTER */
+ .footer {  background-color: #1D1C1E;
+
+ }
+ .footer_container { 
+
+ 
+ }
+ .top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    list-style: none;
+ 
+}
+.footer_item a {
+    font-size: 13px;
+    letter-spacing: 2;
+    text-decoration: none;
+    color: white;
+}
+.footer_item a:hover {
+    color: orange;
+}
+ .footer_logo {
+    color: #FFFFFF;
+ }
+ .horizontal {
+    margin-top: 50px;
+ }
+ .bottom {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   }
+ .designo {
+    font-family: Jost;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+width: 350;
+color: white;
+ }
+ .contact_us { font-family: Jost;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    width: 350;
+    color: white;
+ }
+ .footer_logo {
+    color: white;
+
+
+ }
+ .top {
+    padding-top: 40px;
+ }
+ .footer {
+    position: relative;
+    bottom: 30px;
+ }
+ .images {
+    gap: 30px;
+ }
+ @media screen and (max-width: 689px) {
+    .footer_logo {
+        padding-left: 40px;
+    }
+    .footer_list {
+        padding-right: 40px;
+    }
+.images {
+    padding-right: 30px;
+    padding-top: 40px;
+
+}
+.designo {
+    padding-left: 40px;
+
+}
+ }
+ @media screen and (max-width :375px) {
+   .footer_container {
+    flex-direction: column;
+   }
+   .footer_list { flex-direction: column-reverse;
+position: relative;
+right: 90px;
+
+
+   }
+   .footer_logo {
+   position: relative;
+   bottom: 120px;
+   left: 60px;
+   }
+   .bottom {
+    flex-direction: column;
+   }
+   .contact_us { padding-top: 40px;
+    padding-left: 40px;
+
+   }
+   .images {
+    padding-left: 40px;
+   }
+.footer {
+    position: relative;
+    left: 90px;
+}
+
+
+ }
+ /*  */
+ .talk { margin-top: 120px;
+    position: relative;
+
+}
+.talk_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E7816B;
+    height: 292;
+    border: 1px solid #E7816B ;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+
+}
+.talk_title {
+    font-size: 40px;
+ font-weight: 500;
+ line-height: 40px;
+ color: #FFFFFF;
+ width: 268;
+ padding-left: 70px;
+ padding-top: 30px;
+ }
+.talk_desc {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+     color: #FFFFFF;
+     width: 459;
+     padding-left: 70px;
+   margin-top: 20px;
+   }
+   
+   .touch {
+    font-family: Jost;
+font-size: 15px;
+font-weight: 500;
+line-height: 21.68px;
+letter-spacing: 1px;
+color: #FFFFFF;
+border: 1px solid #FFAD9B;
+padding-top: 18px;
+padding-right: 25px;
+padding-bottom: 18px;
+padding-left: 25px;
+background-color: #FFAD9B ;
+border-radius: 10px;
+text-decoration: none;
+margin-right: 70px;
+ }
+
+ @media screen and (max-width :689px) {
+    .talk_container {
+     flex-direction: column;
+  
+    }
+    .talk_title {
+        width: 335;
+        text-align: center;
+        padding-right: 5px;
+    }
+    .talk_desc {
+        width: 573;
+        text-align: center;
+    }
+    .touch {
+        color: black;
+        background-color: #FFFFFF;
+        margin-left: 135px;
+        margin-bottom: 150px;
+        padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+position: relative;
+bottom: 12px;
+    } 
+ }
+ @media screen and (max-width :375px) {
+    .talk {
+       position: relative;
+       left: 90px;
+    }
+
+ }
+ /* FOOTER */
+ .footer {  background-color: #1D1C1E;
+
+ }
+ .footer_container { 
+
+ 
+ }
+ .top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    list-style: none;
+ 
+}
+.footer_item a {
+    font-size: 13px;
+    letter-spacing: 2;
+    text-decoration: none;
+    color: white;
+}
+.footer_item a:hover {
+    color: orange;
+}
+ .footer_logo {
+    color: #FFFFFF;
+ }
+ .horizontal {
+    margin-top: 50px;
+ }
+ .bottom {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   }
+ .designo {
+    font-family: Jost;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+width: 350;
+color: white;
+ }
+ .contact_us { font-family: Jost;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    width: 350;
+    color: white;
+ }
+ .footer_logo {
+    color: white;
+
+
+ }
+ .top {
+    padding-top: 40px;
+ }
+ .footer {
+    position: relative;
+    bottom: 30px;
+ }
+ .images {
+    gap: 30px;
+ }
+ @media screen and (max-width: 689px) {
+    .footer_logo {
+        padding-left: 40px;
+    }
+    .footer_list {
+        padding-right: 40px;
+    }
+.images {
+    padding-right: 30px;
+    padding-top: 40px;
+
+}
+.designo {
+    padding-left: 40px;
+
+}
+ }
+ @media screen and (max-width :375px) {
+   .footer_container {
+    flex-direction: column;
+   }
+   .footer_list { flex-direction: column-reverse;
+position: relative;
+right: 90px;
+
+
+   }
+   .footer_logo {
+   position: relative;
+   bottom: 120px;
+   left: 60px;
+   }
+   .bottom {
+    flex-direction: column;
+   }
+   .contact_us { padding-top: 40px;
+    padding-left: 40px;
+
+   }
+   .images {
+    padding-left: 40px;
+   }
+.footer {
+    position: relative;
+    left: 90px;
+}
+
+
+ }
+@media screen and (max-width:689px) {
+    .australia_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .canada_image {
+        position: relative;
+        left: 10px;
+        bottom: 80px;
+
+    }
+    .desc_right {
+        position: relative;
+        bottom: 60px;
+    }
+    .united-title {
+        position: relative;
+margin-right: 350px;
+margin-bottom: 150px;
+    }
+    
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
